@@ -1,0 +1,144 @@
+/* Estilos generales */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f6f8;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+h1 {
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+.question-box h2 {
+    color: #34495e;
+    margin-top: 0;
+}
+
+.question {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+/* Botones */
+.answers {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: center;
+}
+
+.btn {
+    background-color: #3498db;
+    color: white;
+    padding: 12px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+    max-width: 300px;
+}
+
+.btn:hover {
+    background-color: #2980b9;
+}
+
+.btn.correcta {
+    background-color: #2ecc71;
+}
+
+.btn.correcta:hover {
+    background-color: #27ae60;
+}
+
+.btn.incorrecta {
+    background-color: #e74c3c;
+}
+
+.btn.incorrecta:hover {
+    background-color: #c0392b;
+}
+
+.mensaje {
+    font-size: 1.1rem;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.btn.reiniciar {
+    background-color: #8e44ad;
+}
+
+.btn.reiniciar:hover {
+    color: #732d91;
+}
+
+/* 🔹 NAVBAR GENERAL */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #004aad; /* azul principal */
+    padding: 15px 40px;
+    color: white;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+nav .logo {
+    font-size: 1.3rem;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+}
+
+nav .menu a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: 500;
+    transition: 0.3s ease;
+}
+
+nav .menu a:hover,
+nav .menu a.active {
+    color: #ffce00;
+    border-bottom: 2px solid #ffce00;
+    padding-bottom: 3px;
+}
+
+/* 🔹 RESPONSIVO (móvil) */
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav .menu a {
+        display: block;
+        margin: 10px 0;
+    }
+}

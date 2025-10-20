@@ -1,0 +1,111 @@
+/* General */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    background: linear-gradient(135deg, #d9eaff, #f7faff);
+    color: #222;
+    line-height: 1.6;
+}
+
+/* Navbar */
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #002060;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+    z-index: 1000;
+}
+
+nav .logo {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+nav .menu a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+nav .menu a:hover,
+nav .menu a.active {
+    color: #FFD700;
+}
+
+/* Contenedor */
+.container {
+    max-width: 900px;
+    margin: 100px auto 40px auto;
+    background: white;
+    padding: 30px 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+/* Títulos */
+h1 {
+    color: #003DFF;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: #002060;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+/* Listas y párrafos */
+ul {
+    margin-left: 20px;
+    text-align: left;
+}
+
+p {
+    margin-bottom: 10px;
+    text-align: justify;
+}
+
+/* Mensaje final */
+.mensaje {
+    font-style: italic;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 15px;
+    color: #003DFF;
+}
+
+/* Botón volver */
+.botones {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.botones button {
+    padding: 12px 24px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    background-color: #003DFF;
+    color: white;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.botones button:hover {
+     background-color: #001F7F;
+}

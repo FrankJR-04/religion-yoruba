@@ -1,0 +1,148 @@
+/* ---------- General ---------- */
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: linear-gradient(180deg, #d9eaff, #f7faff);
+    margin: 0;
+    color: #222;
+    animation: fadeIn 1s ease-in;
+}
+
+/* ---------- Animación ---------- */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* ---------- Navegación ---------- */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #004aad;
+    padding: 15px 30px;
+    color: white;
+    flex-wrap: wrap;
+}
+
+.logo {
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.menu {
+    display: flex;
+    gap: 20px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.menu a:hover, .menu .active {
+    color: #ffde59;
+}
+
+/* ---------- Contenedor ---------- */
+.container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    animation: fadeIn 1.2s ease-in;
+}
+
+h1, h2 {
+    color: #004aad;
+    text-align: center;
+}
+
+p, ul {
+    text-align: justify;
+    line-height: 1.6;
+}
+
+/* ---------- Tabla ---------- */
+.tabla-container {
+    margin: 30px 0;
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+    animation: fadeIn 1.5s ease-in;
+}
+
+thead {
+    background-color: #004aad;
+    color: white;
+}
+
+th, td {
+    padding: 12px 15px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+}
+
+tr:hover {
+    background-color: #f1f6ff;
+    transform: scale(1.01);
+    transition: transform 0.2s ease;
+}
+
+/* ---------- Botón ---------- */
+.botones {
+    text-align: center;
+    margin-top: 30px;
+}
+
+button {
+    background-color: #004aad;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.15);
+}
+
+button:hover {
+    background-color: #002d70;
+    transform: scale(1.05);
+}
+
+/* ---------- Responsive ---------- */
+@media (max-width: 768px) {
+    .menu {
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 10px;
+    }
+
+    nav {
+        text-align: center;
+    }
+
+    .container {
+        width: 90%;
+        padding: 15px;
+    }
+
+    table, th, td {
+        font-size: 14px;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+}
