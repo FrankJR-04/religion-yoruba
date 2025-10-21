@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', () => {
     },
     {
         texto: "¿Cómo se llama el Dios supremo de la religión yoruba?",
-        imagen: "/imagenes/pregunta2.png",
+        imagen: "../imagenes/pregunta2.png",
         opciones: [
         { texto: "Shangó", correcta: false },
         { texto: "Olódùmarè", correcta: true },
@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', () => {
     },
     {
         texto: "¿Qué son los orishas?",
-        imagen: "/imagenes/pregunta3.png",
+        imagen: "../imagenes/pregunta3.png",
         opciones: [
         { texto: "Deidades o intermediarios entre los humanos y Dios", correcta: true },
         { texto: "Espíritus malignos", correcta: false },
@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded', () => {
     },
     {
         texto: "¿Qué elemento de la naturaleza representa Yemayá?",
-        imagen: "/imagenes/pregunta4.png",
+        imagen: "../imagenes/pregunta4.png",
         opciones: [
         { texto: "El fuego", correcta: false },
         { texto: "El viento", correcta: false },
@@ -42,7 +42,7 @@ document.addEventListener('DOMContentLoaded', () => {
     },
     {
     texto: "¿Qué orisha está relacionado con el amor y los ríos?",
-    imagen: "/Imagenes/pregunta5.png",
+    imagen: "../Imagenes/pregunta5.png",
     opciones: [
     { texto: "Oshún", correcta: true },
     { texto: "Obatalá", correcta: false },
@@ -52,7 +52,7 @@ document.addEventListener('DOMContentLoaded', () => {
 },
 {
     texto: "¿Qué significa el término “Ifá”?",
-    imagen: "/Imagenes/pregunta6.png",
+    imagen: "../Imagenes/pregunta6.png",
     opciones: [
     { texto: "Un tambor africano", correcta: false },
     { texto: "Un tipo de danza ritual", correcta: false },
@@ -62,7 +62,7 @@ document.addEventListener('DOMContentLoaded', () => {
 },
 {
     texto: "¿Cuál es el símbolo de Obatalá y qué representa?",
-    imagen: "/Imagenes/pregunta7.png",
+    imagen: "../Imagenes/pregunta7.png",
     opciones: [
     { texto: "El rojo; poder", correcta: false },
     { texto: "El blanco; pureza y sabiduría", correcta: true },
@@ -72,7 +72,7 @@ document.addEventListener('DOMContentLoaded', () => {
 },
 {
     texto: "¿Qué instrumento se usa comúnmente en los rituales yorubas?",
-    imagen: "/Imagenes/pregunta8.png",
+    imagen: "../Imagenes/pregunta8.png",
     opciones: [
     { texto: "Flauta", correcta: false },
     { texto: "Tambores batá", correcta: true },
@@ -82,7 +82,7 @@ document.addEventListener('DOMContentLoaded', () => {
 },
 {
     texto: "¿Qué orisha es conocido por abrir y cerrar caminos?",
-    imagen: "/Imagenes/pregunta9.png",
+    imagen: "../Imagenes/pregunta9.png",
     opciones: [
     { texto: "Yemayá", correcta: false },
     { texto: "Obatalá", correcta: false },
@@ -92,7 +92,7 @@ document.addEventListener('DOMContentLoaded', () => {
 },
 {
     texto: "¿Cómo se llaman los sacerdotes que interpretan los mensajes de los orishas?",
-    imagen: "/Imagenes/pregunta10.png",
+    imagen: "../Imagenes/pregunta10.png",
     opciones: [
     { texto: "Santeros", correcta: false },
     { texto: "Guerreros", correcta: false },
@@ -102,7 +102,7 @@ document.addEventListener('DOMContentLoaded', () => {
 },
 {
     texto: "¿Qué valores promueve la religión yoruba?",
-    imagen: "/Imagenes/pregunta11.png",
+    imagen: "../Imagenes/pregunta11.png",
     opciones: [
     { texto: "Individualismo y competencia", correcta: false },
     { texto: "Respeto, armonía y equilibrio", correcta: true },
@@ -112,7 +112,7 @@ document.addEventListener('DOMContentLoaded', () => {
 },
 {
     texto: "¿Qué relación existe entre los orishas y los elementos naturales?",
-    imagen: "/Imagenes/pregunta12.png",
+    imagen: "../Imagenes/pregunta12.png",
     opciones: [
     { texto: "Cada orisha representa una fuerza de la naturaleza", correcta: true },
     { texto: "Son dioses de los cielos únicamente", correcta: false },
@@ -122,7 +122,7 @@ document.addEventListener('DOMContentLoaded', () => {
 },
 {
     texto: "¿Qué influencia tuvo la religión yoruba en América?",
-    imagen: "/Imagenes/pregunta13.png",
+    imagen: "../Imagenes/pregunta13.png",
     opciones: [
     { texto: "Ninguna", correcta: false },
     { texto: "Dio origen a religiones como la Santería y el Candomblé", correcta: true },
@@ -132,7 +132,7 @@ document.addEventListener('DOMContentLoaded', () => {
 },
 {
     texto: "¿Qué orisha representa la justicia y el trueno?",
-    imagen: "/Imagenes/pregunta14.png",
+    imagen: "../Imagenes/pregunta14.png",
     opciones: [
     { texto: "Obatalá", correcta: false },
     { texto: "Orunmila", correcta: false },
@@ -142,7 +142,7 @@ document.addEventListener('DOMContentLoaded', () => {
 },
 {
     texto: "¿Qué tipo de ofrendas se suelen hacer a los orishas?",
-    imagen: "/Imagenes/pregunta15.png",
+    imagen: "../Imagenes/pregunta15.png",
     opciones: [
     { texto: "Solo flores", correcta: false },
     { texto: "Comidas, frutas, velas y sacrificios simbólicos", correcta: true },
@@ -152,7 +152,7 @@ document.addEventListener('DOMContentLoaded', () => {
 },
 {
     texto: "¿Cómo se transmite principalmente el conocimiento en la religión yoruba?",
-    imagen: "/Imagenes/pregunta16.png",
+    imagen: "../Imagenes/pregunta16.png",
     opciones: [
     { texto: "A través de libros sagrados", correcta: false },
     { texto: "A través de internet", correcta: false },
@@ -162,7 +162,7 @@ document.addEventListener('DOMContentLoaded', () => {
 },
 {
     texto: "¿Qué representa el “Ori” para los yorubas?",
-    imagen: "/Imagenes/pregunta17.png",
+    imagen: "../Imagenes/pregunta17.png",
     opciones: [
     { texto: "El cuerpo físico", correcta: false },
     { texto: "El dios del fuego", correcta: false },
@@ -172,7 +172,7 @@ document.addEventListener('DOMContentLoaded', () => {
 },
 {
     texto: "¿Qué papel tienen los ancestros en la religión yoruba?",
-    imagen: "/Imagenes/pregunta18.png",
+    imagen: "../Imagenes/pregunta18.png",
     opciones: [
     { texto: "Son ignorados porque pertenecen al pasado", correcta: false },
     { texto: "Son honrados y considerados guías espirituales", correcta: true },
@@ -182,7 +182,7 @@ document.addEventListener('DOMContentLoaded', () => {
 },
 {
     texto: "¿Qué color se asocia comúnmente con Oshún?",
-    imagen: "/Imagenes/pregunta19.png",
+    imagen: "../Imagenes/pregunta19.png",
     opciones: [
     { texto: "Amarillo o dorado", correcta: true },
     { texto: "Azul", correcta: false },
@@ -192,7 +192,7 @@ document.addEventListener('DOMContentLoaded', () => {
 },
 {
     texto: "¿Qué enseña la religión yoruba sobre el comportamiento humano?",
-    imagen: "/Imagenes/pregunta20.png",
+    imagen: "../Imagenes/pregunta20.png",
     opciones: [
     { texto: "Que el destino no puede cambiarse", correcta: false },
     { texto: "Que las buenas acciones mantienen el equilibrio espiritual", correcta: true },
